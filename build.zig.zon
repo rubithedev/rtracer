@@ -1,0 +1,17 @@
+.{
+    .name = .rtracer,
+    .version = "0.0.0",
+    .fingerprint = 0x9ab088e9b8febd85, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0-dev.292+fc1c83a36",
+    .dependencies = .{
+        .wio = .{
+            .url = "git+https://github.com/ypsvlq/wio.git#4a0b09b4125081a3b71d0dc5b2e943caa908f226",
+            .hash = "wio-0.0.0-8xHrr79VCABN3bQ1Q9XrQScWkAXvL8HCXjJ3iXU4jHtL",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
